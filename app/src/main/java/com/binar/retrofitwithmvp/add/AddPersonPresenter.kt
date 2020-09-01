@@ -6,7 +6,6 @@ import com.binar.kotlinretrofit.pojo.PostPersonBody
 import com.binar.retrofit.pojo.PostPersonResponse
 import retrofit2.Callback
 import retrofit2.Response
-import retrofit2.Call
 
 class AddPersonPresenter(val listener: Listener) {
 
