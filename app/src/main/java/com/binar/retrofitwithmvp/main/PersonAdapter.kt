@@ -4,8 +4,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.binar.kotlinretrofit.pojo.GetPersonsResponse
 import com.binar.retrofitwithmvp.R
+import com.binar.retrofitwithmvp.pojo.GetPersonsResponse
 import kotlinx.android.synthetic.main.person_item.view.*
 
 class PersonAdapter(var listPerson: List<GetPersonsResponse.Result>, val presenter: MainPresenter) :

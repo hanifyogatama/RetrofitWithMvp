@@ -2,8 +2,9 @@ package com.binar.retrofitwithmvp.add
 
 
 import com.binar.kotlinretrofit.network.ApiClient
-import com.binar.kotlinretrofit.pojo.PostPersonBody
-import com.binar.retrofit.pojo.PostPersonResponse
+import com.binar.retrofitwithmvp.pojo.PostPersonBody
+import com.binar.retrofitwithmvp.pojo.PostPersonResponse
+
 import retrofit2.Callback
 import retrofit2.Response
 

@@ -1,4 +1,4 @@
-package com.binar.kotlinretrofit.pojo
+package com.binar.retrofitwithmvp.pojo
 
 
 import com.google.gson.annotations.SerializedName

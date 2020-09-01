@@ -3,8 +3,8 @@ package com.binar.retrofitwithmvp.update
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
-import com.binar.kotlinretrofit.pojo.GetPersonsResponse
 import com.binar.retrofitwithmvp.R
+import com.binar.retrofitwithmvp.pojo.GetPersonsResponse
 import kotlinx.android.synthetic.main.activity_edit.*
 
 class EditActivity : AppCompatActivity(), UpdatePersonPresenter.Listener {
