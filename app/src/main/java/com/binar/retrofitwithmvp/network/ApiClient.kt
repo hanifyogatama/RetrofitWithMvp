@@ -1,6 +1,6 @@
 package com.binar.kotlinretrofit.network
 
-import com.google.gson.Gson
+
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit

@@ -9,16 +9,16 @@ data class PostPersonResponse(
 ) {
     data class Result(
         @SerializedName("CreatedAt")
-        val createdAt: String, // 2020-08-31T04:49:25.462168526Z
+        val createdAt: String,
         @SerializedName("DeletedAt")
         val deletedAt: Any, // null
         @SerializedName("first_name")
-        val firstName: String, // Wisnu
+        val firstName: String,
         @SerializedName("ID")
         val iD: Int, // 108
         @SerializedName("last_name")
-        val lastName: String, // Yogatama
+        val lastName: String,
         @SerializedName("UpdatedAt")
-        val updatedAt: String // 2020-08-31T04:49:25.462168526Z
+        val updatedAt: String
     )
 }

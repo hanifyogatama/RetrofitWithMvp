@@ -6,9 +6,9 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.binar.kotlinretrofit.pojo.GetPersonsResponse
 import com.binar.retrofitwithmvp.R
 import com.binar.retrofitwithmvp.add.AddActivity
+import com.binar.retrofitwithmvp.pojo.GetPersonsResponse
 import com.binar.retrofitwithmvp.update.EditActivity
 import kotlinx.android.synthetic.main.activity_main.*
 

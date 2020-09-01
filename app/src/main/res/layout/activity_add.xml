@@ -9,13 +9,15 @@
     tools:context=".add.AddActivity">
 
     <EditText
-
+        android:background="@drawable/board"
         android:id="@+id/etFirstName"
         android:hint="First Name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
-    <EditText
 
+    <EditText
+        android:layout_marginTop="5dp"
+        android:background="@drawable/board"
         android:id="@+id/etLastName"
         android:hint="Last Name"
         android:layout_width="match_parent"
@@ -23,7 +25,11 @@
 
     <Button
         android:id="@+id/btnAddPerson"
-        android:text="ADD PERSON"
+        android:layout_marginTop="20dp"
+        android:textAllCaps="false"
+        android:textColor="@color/colorWhite"
+        android:text="Add Person"
+        android:background="@drawable/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 

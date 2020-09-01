@@ -1,8 +1,9 @@
 package com.binar.retrofitwithmvp.main
 
+
 import com.binar.kotlinretrofit.network.ApiClient
-import com.binar.kotlinretrofit.pojo.DeletePersonResponse
-import com.binar.kotlinretrofit.pojo.GetPersonsResponse
+import com.binar.retrofitwithmvp.pojo.DeletePersonResponse
+import com.binar.retrofitwithmvp.pojo.GetPersonsResponse
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response

@@ -1,10 +1,7 @@
 package com.binar.kotlinretrofit.network
 
-import com.binar.kotlinretrofit.pojo.DeletePersonResponse
-import com.binar.kotlinretrofit.pojo.GetPersonsResponse
-import com.binar.kotlinretrofit.pojo.PostPersonBody
-import com.binar.retrofit.pojo.PostPersonResponse
-import com.binar.retrofit.pojo.PutPersonResponse
+
+import com.binar.retrofitwithmvp.pojo.*
 import retrofit2.Call
 import retrofit2.http.*
 
@@ -17,8 +14,8 @@ interface ApiService{
     fun addPerson(@Body postPersonBody: PostPersonBody): Call<PostPersonResponse>
 
     @PUT("person/{id}")
-    fun updatePerson(@Path("id") id: Int, @Body putPersonBody: PostPersonBody): Call<PutPersonResponse>
+    fun updatePerson(@Path("id") id: PutPersonBody, @Body putPersonBody: String): Call<PutPersonResponse>
 
     @DELETE("person/{id}")
-    fun deletePerson(@Path("id") id: Int): Call<DeletePersonResponse>
+    fun deletePerson(@Path("id") id: String): Call<DeletePersonResponse>
 }

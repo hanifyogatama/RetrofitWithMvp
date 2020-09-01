@@ -5,5 +5,5 @@ import com.google.gson.annotations.SerializedName
 
 data class DeletePersonResponse(
     @SerializedName("result")
-    val result: String // Data deleted successfully
+    val result: String
 )
